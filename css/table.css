@@ -1,0 +1,88 @@
+.product{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    margin-left: 20px;
+}
+
+.info .name{
+    font-size: 20px;
+}
+
+.info .category{
+    color: #666;
+}
+
+.table th{
+    color: #666;
+}
+
+.table td{
+    align-items: center;
+    text-align: left;
+    padding: 30px 0;
+}
+
+.qty{
+  display: inline-flex;
+  padding: 5px 0px;
+  background-color: #eee;
+  justify-content: space-around;
+  min-width: 80px;
+  align-items: center;
+}
+
+.qty button{
+    background: #eee;
+    border: 0;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.qty button:hover{
+    background: #ddd;
+}
+
+.qty span{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.box{
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background: #eee;
+    margin-right: 15px;
+    width: 100%;
+    color: #222;
+}
+
+.box header{
+    padding: 15px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.box .info div{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    color: #555;
+}
+
+.box footer{
+    padding: 15px 20px;
+    background: #ddd;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btnB{
+    font-size: 16px;
+    width: 100%;
+}
